@@ -1,6 +1,7 @@
-﻿int A = 2;
-int B = 10;
-
+﻿Console.WriteLine("Введите число 1 ");
+int A = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число 2 ");
+int B = Convert.ToInt32(Console.ReadLine());
 
 int max = A;
 int min = B;
