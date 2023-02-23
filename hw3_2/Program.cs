@@ -6,11 +6,13 @@ Console.WriteLine("Введите число");
 int x = Convert.ToInt32(Console.ReadLine());
 int x1 =x;
 string res ="";
+
 for (int i=0; i <= x; i++){
  int tmp =i * i * i;
  res += $"{tmp}, ";
 
 }
-
 Console.WriteLine(res);
+
+
 
